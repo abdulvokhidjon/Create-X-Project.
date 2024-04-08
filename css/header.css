@@ -4,6 +4,8 @@
   display: flex;
   align-items: center;
   margin-bottom: 8rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 .header__logo {
   margin-right: 6rem;
