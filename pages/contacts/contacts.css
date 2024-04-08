@@ -1,0 +1,253 @@
+@import "../../css/global.css";
+.header-bg {
+  background-color: var(--main-bg);
+  background-image: url(./images/hero-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-bottom: 12rem;
+}
+.hero {
+  margin-bottom: 17.9rem;
+}
+.container {
+}
+.hero__container {
+}
+.hero__nav-index {
+  color: var(--nav-text);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 3.6rem;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.nav-index {
+  color: #9a9ca5;
+}
+.hero__title {
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  text-align: left;
+  color: var(--secondary-color);
+  margin-bottom: 2.4rem;
+}
+.hero__text {
+  font-size: 2rem;
+  line-height: 1.5;
+  width: 60rem;
+}
+.contacts__wrapper {
+  display: flex;
+}
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 41.5rem;
+  height: 4.4rem;
+
+  padding-top: 1.1rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid #d7dadd;
+  background-color: #f4f5f6;
+}
+input[type="checkbox"] {
+  accent-color: var(--primary-color);
+  width: 1.6rem;
+  height: 1.6rem;
+  display: inline-block;
+  margin-right: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-title {
+  color: #424551;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+}
+.checkbox-wrap {
+  display: flex;
+  align-content: flex-start;
+}
+label {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #424551;
+  margin-bottom: 0.8rem;
+}
+input::placeholder {
+  font-size: 1.4rem;
+  color: #9a9ca5;
+}
+#message {
+}
+.form__input {
+  margin-bottom: 1.7rem;
+}
+.form__input-message {
+  margin-bottom: 1rem;
+}
+
+.form__btn {
+  margin-left: 11rem;
+}
+
+.contacts {
+}
+
+.contacts__container {
+}
+.contacts__title {
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 2.4rem;
+}
+.contacts__text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #787a80;
+  margin-bottom: 6rem;
+}
+.contacts__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 13.5rem;
+  margin-bottom: 12rem;
+}
+.contacts__img {
+}
+.contacts__form {
+  width: 600px;
+  height: 584px;
+}
+.contacts__label {
+}
+.form__input {
+}
+.contacts__input {
+  width: 28.5rem;
+  height: 5.2rem;
+}
+
+.contacts__message {
+  width: 60rem;
+  height: 12.8rem;
+  margin-bottom: 4rem;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 3rem;
+}
+select {
+  padding-top: 1.1rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.6rem;
+  padding-right: 2rem;
+  border-radius: 0.4rem;
+  border: 1px solid #d7dadd;
+  background-color: #f4f5f6;
+  color: #424551;
+}
+.radio-wrap {
+  display: flex;
+  align-items: center;
+  width: 260px;
+  margin-top: 2rem;
+}
+.radio {
+  accent-color: var(--primary-color);
+  width: 16px;
+  height: 16px;
+  margin-right: 1.2rem;
+}
+.preferred {
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.contacts__btn {
+  width: 210px;
+  height: 52px;
+}
+.office {
+  background-color: var(--main-bg);
+  padding-bottom: 95px;
+  padding-top: 80px;
+}
+.container {
+  padding: 0;
+}
+.contacts__title {
+}
+.contacts__text {
+}
+.offices__locations {
+  display: flex;
+  gap: 13rem;
+  margin-bottom: 12rem;
+}
+.offices__location {
+  width: 250px;
+}
+.offices__location__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  margin-bottom: 2.4rem;
+}
+.offices__location__address {
+  color: var(--secondary-color);
+  margin-bottom: 4px;
+}
+.offices__location__link {
+  color: var(--primary-color);
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.contact__names {
+}
+.contact__links {
+  margin-bottom: 4px;
+}
+.offices__icons {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+}
+.icon {
+  font-size: 3.2rem;
+  color: #787a80;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.whatsup {
+  font-size: 3.7rem;
+}
+.whatsup:hover {
+  color: #075e54;
+}
+.mesaanger:hover {
+  color: #00b2ff;
+}
+.facebook:hover {
+  color: #1877f2;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.youtube:hover {
+  color: #ff0000;
+}

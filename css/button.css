@@ -1,0 +1,43 @@
+.link-btn {
+  border: 1px solid var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 3.1;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--primary-color);
+  padding: 0 3.2rem;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  &:hover {
+    background-color: #ff5a30;
+    color: #fff;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 1px solid var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 3.1;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 0 3.2rem;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+  align-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  &:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}

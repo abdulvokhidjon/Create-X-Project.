@@ -1,0 +1,74 @@
+@import "../../css/global.css";
+.header-bg {
+  background-color: var(--main-bg);
+  background-image: url(./img/hero-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-bottom: 12rem;
+}
+.hero {
+  margin-bottom: 17.9rem;
+}
+.container {
+}
+.hero__container {
+}
+.hero__nav-index {
+  color: var(--nav-text);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.nav-index {
+  color: #9a9ca5;
+}
+.hero__title {
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  text-align: left;
+  color: var(--secondary-color);
+  margin-bottom: 2.4rem;
+}
+.hero__text {
+  font-size: 2rem;
+  line-height: 1.5;
+  width: 60rem;
+}
+.main {
+  background: url(./img/bg-1.png) right 0 top 40rem no-repeat,
+    url(./img/bg-2.png) left bottom -25rem no-repeat;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+  margin-bottom: 18rem;
+}
+.service-img {
+  border: radius 5px;
+}
+.services__item {
+  display: flex;
+  gap: 8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.services__item-info {
+}
+.services__item-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  margin-bottom: 2.4rem;
+}
+.services__item-text {
+  margin-bottom: 4.8rem;
+}
+.link-btn {
+}
